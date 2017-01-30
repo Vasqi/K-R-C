@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* count spaces (' '), tabs ('\t'), and newlines ('\n') */
 /* executes with: countBTN */
 
 int main(void)
