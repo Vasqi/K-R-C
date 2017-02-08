@@ -15,6 +15,6 @@ main()
             else if (c == '\n')
                 ++nl;
         printf("Blank spaces\t%d\n", nb);
-        printf("New tabs\t%d\n", nt);       /* fails to count new tabs (\t) */
+        printf("New tabs\t%d\n", nt);       // some editors translate \t as a series of blank spaces
         printf("New lines\t%d\n", nl);
     }
